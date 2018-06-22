@@ -61,7 +61,7 @@ namespace PatientJourneyTest
         private Web3 _web3;
         public Web3 GetWeb3()
         {
-            if (_web3 == null) _web3 = new Web3(AccountFactory.GetAccount(), ClientFactory.GetClient());
+            if (_web3 == null) _web3 = new Web3(AccountFactory.GetAccount(), "HTTP://127.0.0.1:7545");
             return _web3;
         }
 
