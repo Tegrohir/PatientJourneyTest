@@ -11,9 +11,11 @@ namespace PatientJourneyTest
     [TestClass]
     public class PatientJourneyTests
     {
+        // This test method has been created purely to explore the possibilities of Nethereum. This does 
+        // not contain the code needed to interact with the Patient Journey in the blockchain. 
         [TestMethod]
         public async Task ShouldProcessTestMethods()
-        {
+        {            
             var service = new PatientJourneyServices();
             var account = service.AccountFactory();
             var receipt = await service.CreateNewPatientJourneyRequestContract(account);
