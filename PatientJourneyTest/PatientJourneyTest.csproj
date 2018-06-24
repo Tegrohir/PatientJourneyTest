@@ -109,7 +109,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseLink.cs" />
+    <Compile Include="PatientJourney.cs" />
     <Compile Include="PatientJourneyServices.cs" />
+    <Compile Include="Permission.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
